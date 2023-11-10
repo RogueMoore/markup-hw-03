@@ -1,4 +1,6 @@
-/* general */
+@import './button.css';
+
+/* #region general */
 
 :root {
   --secondary-color: #212121;
@@ -16,11 +18,26 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.button {
-  cursor: pointer;
+
+.container {
+  margin: 0 auto;
+  width: 1170px;
 }
+/* #endregion */
 
 /* header */
+
+.header__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.nav {
+  display: flex;
+  gap: 93px;
+}
 
 .logo {
   font-family: Raleway;
@@ -42,11 +59,19 @@
   color: #000;
 }
 
-.list__navigation {
+.nav__list {
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  gap: 50px;
+
   list-style: none;
+
+  
 }
 
-.link__navigation {
+.nav__link {
   text-decoration: none;
 
   color: var(--secondary-color);
@@ -55,8 +80,8 @@
   font-weight: 500;
 }
 
-.link__navigation:hover,
-.link__navigation:focus {
+.nav__link:hover,
+.nav__link:focus {
   color: var(--main-color);
 }
 
