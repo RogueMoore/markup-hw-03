@@ -1,0 +1,89 @@
+@import "./reset";
+@import "./vars";
+@import "./header";
+@import "./container";
+@import "./logo";
+@import "./nav";
+@import "./contacts";
+@import "./hero";
+@import "./features";
+@import "./services";
+@import "./team";
+@import "./button";
+
+/* site portfolio */
+
+.filter__list {
+  list-style: none;
+}
+
+.filter__button {
+  padding: 6px 22px;
+
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  font-family: Roboto;
+
+  color: var(--secondary-color);
+  background-color: var(--filter-color);
+
+  border: none;
+  border-radius: 4px;
+}
+
+.filter__button:focus,
+.filter__button:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.projects__list {
+  list-style: none;
+}
+
+.projects__image {
+  width: 370px;
+  height: 294px;
+}
+
+.projects__title {
+  line-height: 36px;
+  font-size: 18px;
+  font-weight: 700;
+
+  color: var(--secondary-color);
+}
+
+.projects__text {
+  font-size: 16px;
+  line-height: 30px;
+
+  color: var(--accent-color);
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--background-color);
+}
+
+.address {
+  line-height: 24px;
+
+  color: #fff;
+}
+
+.contacts__link--footer {
+  text-decoration: none;
+
+  line-height: 24px;
+
+  color: var(--accent-color);
+}
+
+.contacts__link--footer:hover,
+.contacts__link--footer:focus {
+  color: var(--main-color);
+}

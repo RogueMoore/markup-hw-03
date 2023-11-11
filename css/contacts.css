@@ -1,0 +1,13 @@
+.contacts__link {
+  text-decoration: none;
+
+  color: var(--accent-color);
+
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contacts__link:focus,
+.contacts__link:hover {
+  color: var(--main-color);
+}

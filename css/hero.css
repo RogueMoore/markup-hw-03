@@ -1,0 +1,14 @@
+.hero {
+  background-color: var(--background-color);
+}
+
+.hero__main-title {
+  text-align: center;
+  font-size: 44px;
+  line-height: 60px;
+  text-transform: uppercase;
+
+  color: #fff;
+
+  font-weight: 900;
+}

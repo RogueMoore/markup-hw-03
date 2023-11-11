@@ -1,0 +1,19 @@
+.team__list {
+  list-style: none;
+}
+
+.team__image {
+  width: 270px;
+  height: 260px;
+}
+
+.team__name {
+  font-size: 16px;
+  font-weight: 500;
+
+  color: var(--secondary-color);
+}
+
+.team__role {
+  color: var(--accent-color);
+}
