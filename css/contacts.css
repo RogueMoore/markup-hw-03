@@ -1,4 +1,13 @@
+.contacts{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .contacts__link {
+  display: flex;
+  height: 80px;
+  align-items: center;
   text-decoration: none;
 
   color: var(--accent-color);
