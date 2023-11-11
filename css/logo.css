@@ -19,3 +19,7 @@
 .logo__studio--black {
   color: #000;
 }
+
+.logo--footer {
+  max-width: 145px;
+}

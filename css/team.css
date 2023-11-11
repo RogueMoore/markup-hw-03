@@ -1,10 +1,27 @@
+.section__team {
+
+  background-color: #F5F4FA;
+  height: 648px;
+}
+
+.team__content{
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .team__list {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
   list-style: none;
 }
 
 .team__image {
   width: 270px;
   height: 260px;
+  vertical-align: top;
+
 }
 
 .team__name {
@@ -15,5 +32,20 @@
 }
 
 .team__role {
+  margin-top: 10px;
   color: var(--accent-color);
+}
+
+.team__background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  
+  background-color: #fff;
+
+  border-radius: 0px 0px 4px 4px;
+
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }

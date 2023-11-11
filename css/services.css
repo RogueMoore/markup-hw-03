@@ -1,4 +1,11 @@
+/* .services {
+  margin: 0 auto;
+  width: 1200px;
+} */
+
 .section__title {
+  margin-top: 94px;
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
 
@@ -6,7 +13,12 @@
 }
 
 .services__list {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
   list-style: none;
+
 }
 
 .services__image {

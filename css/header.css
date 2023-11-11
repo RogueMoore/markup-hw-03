@@ -1,7 +1,12 @@
+.container {
+  width: 1200px;
+}
+
 .header__content {
   display: flex;
   justify-content: space-between;
   height: 80px;
+
 
   align-items: center;
 }
