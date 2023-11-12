@@ -13,33 +13,12 @@
 @import "./footer.css";
 @import "./section--content.css";
 
+@import "./portfolio/filter.css";
+@import "./portfolio/projects.css";
+
 /* site portfolio */
 
-.filter__list {
-  list-style: none;
-}
 
-.filter__button {
-  padding: 6px 22px;
-
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 26px;
-  font-family: Roboto;
-
-  color: var(--secondary-color);
-  background-color: var(--filter-color);
-
-  border: none;
-  border-radius: 4px;
-}
-
-.filter__button:focus,
-.filter__button:hover {
-  background-color: var(--main-color);
-  color: #fff;
-}
 
 .projects__list {
   list-style: none;
