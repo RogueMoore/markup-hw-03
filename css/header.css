@@ -1,3 +1,7 @@
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
+
 .container {
   width: 1200px;
 }
@@ -9,4 +13,8 @@
 
 
   align-items: center;
+}
+
+.header--portfolio {
+  margin-bottom: 94px;
 }
