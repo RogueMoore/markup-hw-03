@@ -1,8 +1,8 @@
 .section__team {
   display: flex;
   align-items: center;
-  background-color: #F5F4FA;
   height: 648px;
+  background-color: #F5F4FA;
 }
 
 .team__list {
@@ -32,12 +32,6 @@
 }
 
 .team__background {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 80px; */
-
   height: 110px;
   padding: 30px 0 30px 0;
   text-align: center;
@@ -48,7 +42,3 @@
 
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
-
-/* .team--title {
-  padding: 94px;
-} */

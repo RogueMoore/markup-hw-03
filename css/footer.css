@@ -25,15 +25,3 @@
 .contacts__link--footer:focus {
   color: var(--main-color);
 }
-
-.site__content {
-  display: flex;
-  flex-direction: column;
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.section__content {
-  margin: 0 auto;
-  width: 1200px;
-}

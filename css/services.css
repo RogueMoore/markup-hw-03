@@ -12,7 +12,6 @@
 }
 
 .services__list {
-  margin-top: 50px;
   display: flex;
   justify-content: center;
   gap: 30px;
