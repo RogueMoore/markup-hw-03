@@ -1,5 +1,5 @@
 .header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 .container {
@@ -10,7 +10,6 @@
   display: flex;
   justify-content: space-between;
   height: 80px;
-
 
   align-items: center;
 }

@@ -1,5 +1,5 @@
 .section__services {
- margin-bottom: 188px;
+  margin-bottom: 188px;
 }
 
 .section__title {
@@ -16,7 +16,6 @@
   justify-content: center;
   gap: 30px;
   list-style: none;
-
 }
 
 .services__image {

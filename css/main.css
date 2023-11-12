@@ -9,9 +9,10 @@
 @import "./features.css";
 @import "./services.css";
 @import "./team.css";
-@import "./button.css";
 @import "./footer.css";
+
 @import "./section--content.css";
+@import "./button.css";
 
 @import "./portfolio/filter.css";
 @import "./portfolio/projects.css";

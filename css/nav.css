@@ -9,8 +9,6 @@
 
   gap: 50px;
 
-
-
   list-style: none;
 }
 
@@ -24,6 +22,7 @@
   font-size: 14px;
   font-weight: 500;
 
+  transition: 0.3s;
 }
 
 .nav__link:hover,
