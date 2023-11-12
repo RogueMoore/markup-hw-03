@@ -1,10 +1,9 @@
-/* .services {
-  margin: 0 auto;
-  width: 1200px;
-} */
+.section__services {
+ margin-bottom: 188px;
+}
 
 .section__title {
-  margin-top: 94px;
+  margin-bottom: 50px;
   text-align: center;
   font-size: 36px;
   font-weight: 700;

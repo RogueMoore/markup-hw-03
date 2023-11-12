@@ -1,7 +1,7 @@
 .features {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
+  margin-bottom: 94px;
 }
 
 .features__list {
