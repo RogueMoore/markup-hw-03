@@ -15,32 +15,3 @@
 
 @import "./portfolio/filter.css";
 @import "./portfolio/projects.css";
-
-/* site portfolio */
-
-
-
-.projects__list {
-  list-style: none;
-}
-
-.projects__image {
-  width: 370px;
-  height: 294px;
-}
-
-.projects__title {
-  line-height: 36px;
-  font-size: 18px;
-  font-weight: 700;
-
-  color: var(--secondary-color);
-}
-
-.projects__text {
-  font-size: 16px;
-  line-height: 30px;
-
-  color: var(--accent-color);
-}
-/* footer */

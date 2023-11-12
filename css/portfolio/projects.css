@@ -1,0 +1,48 @@
+.projects {
+  margin-bottom: 94px;
+}
+
+.projects__list {
+  display: flex;
+
+  gap: 30px;
+
+  margin-bottom: 30px;
+
+  list-style: none;
+}
+
+.projects__image {
+  display: flex;
+  vertical-align:top;
+  width: 370px;
+  height: 294px;
+}
+
+.projects__border {
+  border-left: 1px solid #EEE;
+  border-right: 1px solid #EEE;
+  border-bottom: 1px solid #EEE;
+
+  background: #FFF;
+
+  padding: 20px 24px 20px 24px;
+
+}
+
+.projects__title {
+  margin-bottom: 4px;
+  
+  line-height: 36px;
+  font-size: 18px;
+  font-weight: 700;
+
+  color: var(--secondary-color);
+}
+
+.projects__text {
+  font-size: 16px;
+  line-height: 30px;
+
+  color: var(--accent-color);
+}
