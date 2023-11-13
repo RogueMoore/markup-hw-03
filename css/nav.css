@@ -6,7 +6,6 @@
 .nav__list {
   display: flex;
   align-items: center;
-
   gap: 50px;
 
   list-style: none;
@@ -14,10 +13,13 @@
 
 .nav__link {
   display: flex;
-  text-decoration: none;
   align-items: center;
+
   height: 80px;
+
   color: var(--secondary-color);
+
+  text-decoration: none;
 
   font-size: 14px;
   font-weight: 500;

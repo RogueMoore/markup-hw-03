@@ -1,7 +1,9 @@
 .section__team {
   display: flex;
   align-items: center;
+
   height: 648px;
+
   background-color: #f5f4fa;
 }
 
@@ -9,12 +11,14 @@
   display: flex;
   justify-content: center;
   gap: 30px;
+
   list-style: none;
 }
 
 .team__image {
   width: 270px;
   height: 260px;
+
   vertical-align: top;
 }
 
@@ -27,18 +31,20 @@
 
 .team__role {
   margin-top: 10px;
+
   color: var(--accent-color);
 }
 
-.team__background {
-  height: 110px;
+.team__border {
   padding: 30px 0 30px 0;
+
+  height: 110px;
+
   text-align: center;
 
   background-color: #fff;
 
   border-radius: 0px 0px 4px 4px;
-
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }

@@ -6,12 +6,13 @@
 
 .contacts__link {
   display: flex;
-  height: 80px;
   align-items: center;
-  text-decoration: none;
+
+  height: 80px;
 
   color: var(--accent-color);
 
+  text-decoration: none;
   font-size: 14px;
   font-weight: 500;
 

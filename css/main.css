@@ -1,5 +1,9 @@
 @import "./reset.css";
 @import "./vars.css";
+@import "./container.css";
+@import "./section--content.css";
+@import "./button.css";
+
 @import "./header.css";
 @import "./logo.css";
 @import "./nav.css";
@@ -9,10 +13,6 @@
 @import "./services.css";
 @import "./team.css";
 @import "./footer.css";
-
-@import "./container.css";
-@import "./section--content.css";
-@import "./button.css";
 
 @import "./portfolio/filter.css";
 @import "./portfolio/projects.css";

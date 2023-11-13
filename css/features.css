@@ -1,18 +1,17 @@
 .features {
+  margin-bottom: 94px;
+
   display: flex;
   justify-content: center;
-  margin-bottom: 94px;
 }
 
 .features__list {
   display: flex;
   justify-content: center;
   gap: 20px;
+
   list-style: none;
 }
-
-/* .features__item {
-  display: flex;} */
 
 .features__title {
   font-size: 14px;
@@ -24,9 +23,11 @@
 
 .features__text {
   margin-top: 10px;
+
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
+  letter-spacing: 0.42px;
 
   color: var(--accent-color);
 

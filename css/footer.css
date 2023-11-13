@@ -1,12 +1,14 @@
 .footer {
   padding: 60px 0 60px 215px;
-  background-color: var(--background-color);
 
   height: 251px;
+
+  background-color: var(--background-color);
 }
 
 .address {
   margin-top: 28px;
+
   line-height: 24px;
 
   color: #fff;

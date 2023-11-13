@@ -6,6 +6,7 @@
   gap: 30px;
 
   height: 600px;
+  width: 100%;
 
   background-color: var(--background-color);
 
@@ -13,14 +14,14 @@
 }
 
 .hero__main-title {
-  text-align: center;
   font-size: 44px;
+  font-weight: 900;
+
+  text-align: center;
   line-height: 60px;
   text-transform: uppercase;
 
   width: 696px;
 
   color: #fff;
-
-  font-weight: 900;
 }

@@ -14,7 +14,9 @@
 
 .projects__image {
   display: flex;
+
   vertical-align: top;
+
   width: 370px;
   height: 294px;
 }
