@@ -1,5 +1,5 @@
 .features {
-  margin-bottom: 94px;
+  margin: 94px 0 94px 0;
 
   display: flex;
   justify-content: center;
@@ -7,8 +7,7 @@
 
 .features__list {
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  justify-content: space-between;
 
   list-style: none;
 }

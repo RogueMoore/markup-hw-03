@@ -1,61 +1,63 @@
 <!DOCTYPE html>
 <html lang="en" class="page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/modern-normalize/modern-normalize.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="./node_modules/modern-normalize/modern-normalize.css" />
+    <title>WebStudio</title>
+  </head>
 
-  <title>WebStudio</title>
-</head>
-
-<body class="page__body">
-  <header class="header">
-    <div class="container">
-      <div class="header__content">
-        <nav class="nav">
-          <a class="logo" href="index.html">
-            <span class="logo__web">Web</span>
-            <span class="logo__studio logo__studio--black">Studio</span>
-          </a>
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a class="nav__link" href="index.html">Студія</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="portfolio.html">Портфоліо</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#">Контакти</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="contacts">
-          <a class="contacts__link" href="mailto:info@devstudio.com">
-            info@devstudio.com
-          </a>
-          <a class="contacts__link" href="tel:+380961111111">
-            +38 096 111 11 11
-          </a>
+  <body class="page__body">
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <nav class="nav">
+            <a class="logo" href="index.html">
+              <span class="logo__web">Web</span>
+              <span class="logo__studio logo__studio--black">Studio</span>
+            </a>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="index.html">Студія</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="portfolio.html">Портфоліо</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="contacts">
+            <a class="contacts__link" href="mailto:info@devstudio.com">
+              info@devstudio.com
+            </a>
+            <a class="contacts__link" href="tel:+380961111111">
+              +38 096 111 11 11
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <main>
-    <div class="div site__content">
+    <main>
       <section class="hero page__section">
         <h1 class="hero__main-title">Ефективні рішення для вашого бізнесу</h1>
         <button class="hero__button button">Замовити послугу</button>
       </section>
       <section class="features">
-        <div class="section__content">
+        <div class="container">
           <ul class="features__list">
             <li class="features__item">
               <h3 class="features__title">Увага до деталей</h3>
@@ -74,8 +76,7 @@
             <li class="features__item">
               <h3 class="features__title">Пунктуальність</h3>
               <p class="features__text">
-                Так само консультація з широким активом значною мірою
-                зумовлює.
+                Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="features__item">
@@ -90,49 +91,77 @@
       </section>
 
       <section class="section__services">
-        <div class="section__content">
+        <div class="container">
           <h2 class="section__title">Чим ми займаємося</h2>
           <ul class="services__list">
             <li class="services__item">
-              <img class="services__image" src="images/Services/keyboard.jpg" alt="Чим мі займаємося" />
+              <img
+                class="services__image"
+                src="images/Services/keyboard.jpg"
+                alt="Чим мі займаємося"
+              />
             </li>
             <li class="services__item">
-              <img class="services__image" src="images/Services/phone.jpg" alt="Чим мі займаємося" />
+              <img
+                class="services__image"
+                src="images/Services/phone.jpg"
+                alt="Чим мі займаємося"
+              />
             </li>
             <li class="services__item">
-              <img class="services__image" src="images/Services/rpb.jpg" alt="Чим мі займаємося" />
+              <img
+                class="services__image"
+                src="images/Services/rpb.jpg"
+                alt="Чим мі займаємося"
+              />
             </li>
           </ul>
         </div>
       </section>
 
       <section class="section__team">
-        <div class="section__content">
+        <div class="container">
           <h2 class="section__title">Наша команда</h2>
           <ul class="team__list">
             <li class="team__item">
-              <img class="team__image" src="images/Team/Ihor_Demyanenko.jpg" alt="Ігор Дем'яненко" />
+              <img
+                class="team__image"
+                src="images/Team/Ihor_Demyanenko.jpg"
+                alt="Ігор Дем'яненко"
+              />
               <div class="div team__border">
                 <h3 class="team__name">Ігор Дем'яненко</h3>
                 <p class="team__role">Product Designer</p>
               </div>
             </li>
             <li class="team__item">
-              <img class="team__image" src="images/Team/Olga_Repina.jpg" alt="Ольга Рєпіна" />
+              <img
+                class="team__image"
+                src="images/Team/Olga_Repina.jpg"
+                alt="Ольга Рєпіна"
+              />
               <div class="div team__border">
                 <h3 class="team__name">Ольга Рєпіна</h3>
                 <p class="team__role">Frontend Developer</p>
               </div>
             </li>
             <li class="team__item">
-              <img class="team__image" src="images/Team/Mykola_Tarasov.jpg" alt="Микола Тарасов" />
+              <img
+                class="team__image"
+                src="images/Team/Mykola_Tarasov.jpg"
+                alt="Микола Тарасов"
+              />
               <div class="div team__border">
                 <h3 class="team__name">Микола Тарасов</h3>
                 <p class="team__role">Marketing</p>
               </div>
             </li>
             <li class="team__item">
-              <img class="team__image" src="images/Team/Mykhailo_Yermakov.jpg" alt="Михайло Ермаков" />
+              <img
+                class="team__image"
+                src="images/Team/Mykhailo_Yermakov.jpg"
+                alt="Михайло Ермаков"
+              />
               <div class="div team__border">
                 <h3 class="team__name">Михайло Ермаков</h3>
                 <p class="team__role">UI Designer</p>
@@ -141,28 +170,29 @@
           </ul>
         </div>
       </section>
-    </div>
-  </main>
+    </main>
 
-  <footer class="footer">
-    <div class="container">
-      <a class="logo footer__logo" href="index.html">
-        <span class="logo__web">Web</span>
-        <span class="logo__studio logo__studio--white">Studio</span>
-      </a>
-      <div class="footer__content">
-        <address class="address">
-          м. Київ, пр-т Лесі Українки, 26
-          <br />
-        </address>
-        <a class="contacts__link--footer" href="mailto:info@devstudio.com">info@devstudio.com
+    <footer class="footer">
+      <div class="container">
+        <a class="logo footer__logo" href="index.html">
+          <span class="logo__web">Web</span>
+          <span class="logo__studio logo__studio--white">Studio</span>
         </a>
+        <div class="footer__content">
+          <address class="address">м. Київ, пр-т Лесі Українки, 26</address>
+          <div>
+            <a class="contacts__link--footer" href="mailto:info@devstudio.com"
+              >info@devstudio.com
+            </a>
+          </div>
 
-        <a class="contacts__link--footer" href="tel:+380961111111">+38 096 111 11 11
-        </a>
+          <div>
+            <a class="contacts__link--footer" href="tel:+380961111111"
+              >+38 096 111 11 11
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
