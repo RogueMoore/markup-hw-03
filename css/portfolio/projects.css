@@ -1,5 +1,5 @@
-.projects {
-  margin-bottom: 94px;
+.projects--section {
+  padding: 0 0 94px 0;
 }
 
 .projects__list {
@@ -7,9 +7,11 @@
   flex-wrap: wrap;
   gap: 30px;
 
-  margin-bottom: 30px;
-
   list-style: none;
+}
+
+.projects__list:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .projects__image {

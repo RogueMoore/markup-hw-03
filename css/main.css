@@ -1,7 +1,7 @@
 @import "./reset.css";
 @import "./vars.css";
 @import "./container.css";
-@import "./section--content.css";
+@import "./page__section.css";
 @import "./button.css";
 
 @import "./header.css";

@@ -1,0 +1,7 @@
+.page__section {
+  padding-top: 94px;
+}
+
+.page__section:not(:nth-child(2)):not(:nth-child(1)) {
+  padding-bottom: 94px;
+}
